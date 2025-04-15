@@ -19,12 +19,6 @@ main:
           type: cnb:await
           options:
             key: build
-        - name: set token
-          image: tencentcom/git-set-credential:latest
-          settings:
-            loginUserName: $CNB_TOKEN_USERNAME
-            loginPassword: $CNB_TOKEN
-
         - name: commit
           image: tencentcom/git-commit:latest
           commands: |
