@@ -10,8 +10,6 @@ main:
             npm i
         - name: build 
           script: npm run docs:build
-        - name: resolve
-          type: cnb:resolve
           options:
             key: build
     - stages:
