@@ -133,6 +133,44 @@ export default defineConfig({
           { text: 'Home', link: '/' },
           { text: 'Docs', link: '/en/docs/' }
         ],
+        search: {
+          provider: 'local',
+          options: {
+            translations: {
+              button: {
+                buttonText: 'Search',
+                buttonAriaLabel: 'Search documents'
+              },
+              modal: {
+                noResultsText: 'No results found',
+                resetButtonTitle: 'Clear query',
+                footer: {
+                  selectText: 'Select',
+                  navigateText: 'Navigate',
+                  closeText: 'Close'
+                }
+              }
+            }
+          }
+        },
+        editLink: {
+          pattern: 'https://github.com/aingdesk/website:path',
+          text: 'Edit this page on GitHub'
+        },
+        docFooter: {
+          prev: 'Previous',
+          next: 'Next'
+        },
+        lastUpdated: {
+          text: 'Last updated'
+        },
+        langMenuLabel: 'Language',
+        returnToTopLabel: 'Return to top',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Theme',
+        lightModeSwitchTitle: 'Switch to light theme',
+        darkModeSwitchTitle: 'Switch to dark theme',
+        skipToContentLabel: 'Skip to content',
         sidebar: [
           {
             text: 'Installation',
