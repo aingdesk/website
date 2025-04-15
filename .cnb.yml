@@ -19,11 +19,10 @@ main:
             git init
             git config --global user.name "CI Bot"
             git config --global user.email "ci-bot@aingdesk.com"
-            git remote add origin https://cnb.cool/aingdesk/website.git
-            git checkout -b build
-            git add .
-            git commit -m "Auto deploy to build branch"
-            git push -f origin build
+            git checkout -B build  # 切换到 build 分支（如果不存在则创建）
+            git add .  # 添加 dist 目录中的所有文件
+            git commit -m "Auto deploy to build branch" || echo "No changes to commit"
+            git push -f origin build  # 强制推送到 build 分支
 $:
   vscode:
     - services:
