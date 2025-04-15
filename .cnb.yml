@@ -22,6 +22,8 @@ main:
         - name: set token
           image: tencentcom/git-set-credential:latest
           settings:
+            userName: aingdesk
+            userEmail: support@aingdesk.com
             loginUserName: ${CNB_TOKEN_USERNAME}
             loginPassword: ${CNB_TOKEN}
 
