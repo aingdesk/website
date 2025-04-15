@@ -12,21 +12,18 @@ main:
           script: |
             npm run docs:build
             cd .vitepress/dist
-        - name: resolve
-          type: cnb:resolve
-          options:
-            key: build
-        - name: await the build
-          type: cnb:await
-          options:
-            key: build
         - name: commit
           image: tencentcom/git-commit:latest
           commands: |
             cd .vitepress/dist
+            git init
+            git config --global user.name "CI Bot"
+            git config --global user.email "ci-bot@aingdesk.com"
+            git remote add origin https://cnb.cool/aingdesk/website.git
+            git checkout -b build
             git add .
             git commit -m "Auto deploy to build branch"
-            git push origin build
+            git push -f origin build
 $:
   vscode:
     - services:
