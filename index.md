@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AingDesk"
-  text: "拥有超强知识库能力的开源免费AI助手"
+  text: "拥有超强知识库能力的\n开源免费AI助手"
   tagline: 
   actions:
     - theme: brand

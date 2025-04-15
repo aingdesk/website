@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AingDesk"
-  text: "An open-source and free AI assistant with powerful knowledge base capabilities"
+  text: "An open-source and free \nAI assistant with powerful knowledge base capabilities"
   tagline: 
   actions:
     - theme: brand
