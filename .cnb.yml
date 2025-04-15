@@ -20,9 +20,9 @@ main:
             git init
             git config --global user.name "CI Bot"
             git config --global user.email "ci-bot@aingdesk.com"
-            git remote add origin https://cnb.cool/aingdesk/website.git
+            git remote add origin https://$CNB_TOKEN_USERNAME:$CNB_TOKEN@cnb.cool/aingdesk/website.git
             git add -A
-            git commit -m "Auto deploy to build branch"
+            git commit -m "chore: 自动部署构建产物 [skip ci]"
             git push -f origin HEAD:build
 $:
   vscode:
