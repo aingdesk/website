@@ -12,7 +12,6 @@ main:
           script: |
             npm run docs:build
             cd .vitepress/dist
-            ls
         - name: resolve
           type: cnb:resolve
           options:
@@ -25,9 +24,6 @@ main:
         - name: commit
           image: tencentcom/git-commit:latest
           commands: |
-            ls -a
-            cd .vitepress
-            ls -a
             cd .vitepress/dist
             git add .
             git commit -m "Auto deploy to build branch"
