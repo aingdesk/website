@@ -10,7 +10,6 @@ main:
               npm i
           - name: Build 
             script: npm run docs:build
-    - docker:
         image: plugins/git
         stages:
           - name: publish-to-build-branch
