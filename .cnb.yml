@@ -8,14 +8,17 @@ main:
         - name: Install dependencies
           script: |
             npm i
-        - name: Build 
+        - name: build 
           script: npm run docs:build
     - stages:
-        - name: publish-to-build-branch
-          image: plugins/git
+        - name: await the build
+          type: cnb:await
+          options:
+            key: build
+        image: tencentcom/git-set-credential:latest
           settings:
-            username: $CNB_TOKEN_USERNAME
-            password: $CNB_TOKEN
+            loginUserName: ${CNB_TOKEN_USERNAME}
+            loginPassword: ${CNB_TOKEN}
             commands: |
               cd .vitepress/dist
               git add .
