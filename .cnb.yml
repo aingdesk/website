@@ -15,15 +15,19 @@ main:
           type: cnb:await
           options:
             key: build
-        image: tencentcom/git-set-credential:latest
+        - name: set token
+          image: tencentcom/git-set-credential:latest
           settings:
             loginUserName: ${CNB_TOKEN_USERNAME}
             loginPassword: ${CNB_TOKEN}
-            commands: |
-              cd .vitepress/dist
-              git add .
-              git commit -m "Auto deploy to build branch"
-              git push origin build
+
+        - name: commit
+          image: tencentcom/git-commit:latest
+          commands: |
+            cd .vitepress/dist
+            git add .
+            git commit -m "Auto deploy to build branch"
+            git push origin build
 $:
   vscode:
     - services:
