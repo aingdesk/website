@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "AingDesk"
   text: "拥有超强知识库能力的开源免费AI助手"
-  tagline: 未来几周迭代计划：多用户权限控制（请关注我们 Github 获取最新动态）
+  tagline: 
   actions:
     - theme: brand
       text: 下载地址
