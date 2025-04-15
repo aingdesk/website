@@ -9,7 +9,7 @@ main:
           script: |
             npm i
         - name: build 
-          script: ｜
+          script: |
             npm run docs:build
             cd .vitepress/dist
         - name: resolve
