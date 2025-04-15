@@ -22,7 +22,7 @@ main:
             git config --global user.email "ci-bot@aingdesk.com"
             git remote add origin https://$CNB_TOKEN_USERNAME:$CNB_TOKEN@cnb.cool/aingdesk/website.git
             git add -A
-            git commit -m "chore: 自动部署构建产物 [skip ci]"
+            git commit -m "chore: 自动部署构建 [skip ci]"
             git push -f origin HEAD:build
 $:
   vscode:
