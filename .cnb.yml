@@ -1,0 +1,25 @@
+main:
+  push:
+    - docker:
+        image: node:lts
+        volumes:
+          - /root/.npm:cow
+      stages:
+        - name: Install dependencies
+          script: |
+            npm i
+        - name: Build 
+          script: npm run docs:build
+
+$:
+  vscode:
+    - services:
+        - docker
+      docker:
+        build: 
+          dockerfile: .ide/Dockerfile
+      stages:
+        - name: Install dependencies
+          script: |
+            npm i -g hexo-cli
+            npm i
