@@ -4,31 +4,30 @@ main:
         image: node:lts
         volumes:
           - /root/.npm:cow
-        stages:
-          - name: Install dependencies
-            script: |
-              npm i
-          - name: Build 
-            script: npm run docs:build
-        image: plugins/git
-        stages:
-          - name: publish-to-build-branch
-            script: |
+      stages:
+        - name: Install dependencies
+          script: |
+            npm i
+        - name: Build 
+          script: npm run docs:build
+    - stages:
+        - name: publish-to-build-branch
+          image: plugins/git
+          settings:
+            username: $CNB_TOKEN_USERNAME
+            password: $CNB_TOKEN
+            commands: |
               cd .vitepress/dist
               git add .
               git commit -m "Auto deploy to build branch"
               git push origin build
-            settings:
-              branch: build
-              username: $CNB_TOKEN_USERNAME
-              password: $CNB_TOKEN
-
-vscode:
-  - services:
-      - docker
-    docker:
-      build: 
-        dockerfile: .ide/Dockerfile
+$:
+  vscode:
+    - services:
+        - docker
+      docker:
+        build: 
+          dockerfile: .ide/Dockerfile
       stages:
         - name: Install dependencies
           script: |
