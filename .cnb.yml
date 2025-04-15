@@ -16,7 +16,6 @@ main:
           type: cnb:resolve
           options:
             key: build
-    - stages:
         - name: await the build
           type: cnb:await
           options:
