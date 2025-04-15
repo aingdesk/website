@@ -27,8 +27,8 @@ features:
     details: 支持构建和管理复杂的知识库，轻松应对各种场景
   - title: 🚀本地模型部署及第三方API
     details: 支持本地模型部署，同时兼容第三方AI API
-  - title: ❇️智能体
-    details: 可创建多种智能体，满足个性化需求
+  - title: ❇️智能体/MCP
+    details: 支持使用MCP以及创建多种智能体，满足个性化需求
   - title: 🤝可分享他人共用
     details: 支持知识库和智能体的共享，共同协作更高效
   - title: 🔍️联网搜索

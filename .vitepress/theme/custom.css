@@ -5,10 +5,16 @@
  :root {
     --vp-c-white: #ffffff;
     --vp-c-black: #000000;
-    font-size: small;
   
     --vp-c-neutral: var(--vp-c-black);
     --vp-c-neutral-inverse: var(--vp-c-white);
+  }
+
+  @media (min-width: 960px) {
+    .name[data-v-89d2fc22], .text[data-v-89d2fc22] {
+      line-height: 64px;
+      font-size: 40px;
+    }
   }
   
   .dark {

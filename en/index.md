@@ -4,12 +4,15 @@ layout: home
 
 hero:
   name: "AingDesk"
-  text: "Open Source AI Assistant with Powerful Knowledge Base"
+  text: "An open-source and free AI assistant with powerful knowledge base capabilities"
   tagline: 
   actions:
     - theme: brand
       text: Download
-      link: /download
+      link: /download/
+    - theme: alt
+      text: Documentation
+      link: /docs/
     - theme: alt
       text: GitHub
       link: https://github.com/aingdesk/AingDesk
@@ -18,17 +21,17 @@ hero:
     alt: Background Image
 
 features:
-  - title: 👍Free & MIT Licensed
-    details: Completely free and open source under MIT license, supporting secondary development
+  - title: 👍Free and Open Source under MIT
+    details: Completely free, open source under the MIT license, and supports secondary development
   - title: 📚️Powerful Knowledge Base
-    details: Build and manage complex knowledge bases, easily handling various scenarios
-  - title: 🚀Local Models & Third-party APIs
-    details: Support local model deployment while compatible with third-party AI APIs
-  - title: ❇️AI Agents
-    details: Create various AI agents to meet personalized needs
-  - title: 🤝Shareable & Collaborative
-    details: Share knowledge bases and agents for efficient collaboration
-  - title: 🔍️Web Search
-    details: Support web search to quickly access the latest information
+    details: Supports building and managing complex knowledge bases, easily handling various scenarios
+  - title: 🚀Local Model Deployment and Third-Party API
+    details: Supports local model deployment and is compatible with third-party AI APIs
+  - title: ❇️Agents/MCP
+    details: Supports using MCP and creating various agents to meet personalized needs
+  - title: 🤝Shareable with Others
+    details: Supports sharing knowledge bases and agents for more efficient collaboration
+  - title: 🔍️Internet Search
+    details: Supports internet search to quickly access the latest information
 ---
 

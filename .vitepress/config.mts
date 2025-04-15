@@ -34,8 +34,8 @@ export default defineConfig({
     },
 
     logo: {
-      light: '/logo.png',
-      dark: '/logo-dark.png',
+      light: '/img/logo.png',
+      dark: '/img/logo-dark.png',
       alt: 'AingDesk Logo'
     },
 
