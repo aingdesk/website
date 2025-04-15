@@ -10,7 +10,18 @@ main:
             npm i
         - name: Build 
           script: npm run docs:build
-
+    - stages:
+        - name: publish-to-build-branch
+          image: plugins/git
+          settings:
+            branch: build
+            username: $CNB_TOKEN_USERNAME
+            password: $CNB_TOKEN
+            commands: |
+              cd .vitepress/dist
+              git add .
+              git commit -m "Auto deploy to build branch"
+              git push origin build
 $:
   vscode:
     - services:
