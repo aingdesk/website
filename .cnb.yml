@@ -12,6 +12,7 @@ main:
           script: |
             npm run docs:build
             cd .vitepress/dist
+            ls
         - name: resolve
           type: cnb:resolve
           options:
