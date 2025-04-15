@@ -16,7 +16,6 @@ main:
           image: tencentcom/git-commit:latest
           commands: |
             cd .vitepress/dist
-            git init
             git config --global user.name "CI Bot"
             git config --global user.email "ci-bot@aingdesk.com"
             git checkout -B build  # 切换到 build 分支（如果不存在则创建）
