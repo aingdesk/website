@@ -10,6 +10,8 @@ main:
             npm i
         - name: build 
           script: npm run docs:build
+          options:
+              key: build
     - stages:
         - name: await the build
           type: cnb:await
