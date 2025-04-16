@@ -112,7 +112,7 @@ export default defineConfig({
     skipToContentLabel: '跳转到内容',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/aingdesk/AingDesk' }
     ]
   },
 
