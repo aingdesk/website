@@ -1,7 +1,3 @@
----
-sidebar_position: 4
-description: 使用宝塔面板部署
----
 # 宝塔面板
 
 ### 前提条件

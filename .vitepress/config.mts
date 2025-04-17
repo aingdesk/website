@@ -78,6 +78,22 @@ export default defineConfig({
         items: [
           { text: '常见问题', link: '/docs/faq/faq' }
         ]
+      },
+      {
+        text: 'API文档',
+        collapsed: false,
+        items: [
+          { text: '开发规范', link: '/docs/api/index' },
+          { text: '共通返回', link: '/docs/api/common-return' },
+          { text: '本地模型管理', link: '/docs/api/model' },
+          { text: '对话相关', link: '/docs/api/chat' },
+          { text: '语言相关', link: '/docs/api/language' },
+          { text: '知识库相关', link: '/docs/api/knowledgebase' },
+          { text: '第三方模型API相关', link: '/docs/api/thirdapi' },
+          { text: '智能体相关', link: '/docs/api/intelligent-agent' },
+          { text: '服务端文件相关', link: '/docs/api/server-file' },
+          { text: 'MCP相关', link: '/docs/api/mcp' }
+        ]
       }
     ],
 

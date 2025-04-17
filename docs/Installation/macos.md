@@ -1,7 +1,3 @@
----
-sidebar_position: 2
-description: 在 macOS 系统上安装 AingDesk
----
 # macOS
 macOS 版本安装指南
 

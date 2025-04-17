@@ -1,7 +1,3 @@
----
-sidebar_position: 1
-description: 在 Windows 系统上安装 AingDesk
----
 # Windows
 Windows 版本安装指南
 
