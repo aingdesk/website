@@ -62,7 +62,8 @@ export default defineConfig({
           { text: '智能体', link: '/docs/guide/intelligent-agent' },
           { text: '知识库', link: '/docs/guide/knowledgebase' },
           { text: '第三方API', link: '/docs/guide/thirdapi' },
-          { text: '分享', link: '/docs/guide/share' }
+          { text: '分享', link: '/docs/guide/share' },
+          { text: 'MCP', link: '/docs/guide/mcp' }
         ]
       },
       {
