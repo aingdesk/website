@@ -11,11 +11,14 @@ hero:
       text: 下载地址
       link: /download/
     - theme: alt
+      text: GitHub
+      link: https://github.com/aingdesk/AingDesk
+    - theme: alt
       text: 使用文档
       link: /docs/
     - theme: alt
-      text: GitHub
-      link: https://github.com/aingdesk/AingDesk
+      text: API文档
+      link: /docs/api/
   image:
     src: /img/home.png
     alt: 背景图片
