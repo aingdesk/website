@@ -98,8 +98,8 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/aingdesk/website:path',
-      text: '在 GitHub 上编辑此页面'
+      pattern: 'https://cnb.cool/aingdesk/website:path',
+      text: '在 CNB 上编辑此页面'
     },
 
     footer: {
@@ -170,8 +170,8 @@ export default defineConfig({
           }
         },
         editLink: {
-          pattern: 'https://github.com/aingdesk/website:path',
-          text: 'Edit this page on GitHub'
+          pattern: 'https://cnb.cool/aingdesk/website:path',
+          text: 'Edit this page on CNB'
         },
         docFooter: {
           prev: 'Previous',
