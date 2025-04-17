@@ -99,7 +99,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://cnb.cool/aingdesk/website:path',
+      pattern: 'https://cnb.cool/aingdesk/website/-/tree/main/:path',
       text: '在 CNB 上编辑此页面'
     },
 
@@ -171,7 +171,7 @@ export default defineConfig({
           }
         },
         editLink: {
-          pattern: 'https://cnb.cool/aingdesk/website:path',
+          pattern: 'https://cnb.cool/aingdesk/website/-/tree/main/:path',
           text: 'Edit this page on CNB'
         },
         docFooter: {
