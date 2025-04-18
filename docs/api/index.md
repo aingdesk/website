@@ -6,6 +6,15 @@
 http://127.0.0.1:7071
 ```
 
+服务端需要传`token`参数，通过get或post方式传递均可
+
+```bash
+# GET方式
+GET /api/example?token=xxxx
+```
+
+token可在设置页面中api密钥获取
+
 ## 传参数格式约定
 
 所有参数通过FORM表单中的data参数以JSON字符串的格式传递
