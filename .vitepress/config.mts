@@ -73,6 +73,7 @@ export default defineConfig({
               { text: '接入腾讯混元 API', link: '/docs/guide/thirdapi/hunyuan' },
               { text: '接入KIMI API', link: '/docs/guide/thirdapi/kimi' },
               { text: '接入百度飞桨 API', link: '/docs/guide/thirdapi/paddle' },
+              { text: '接入火山方舟 API', link: '/docs/guide/thirdapi/volcengine' },
             ]
           },
           { text: '分享', link: '/docs/guide/share' },
