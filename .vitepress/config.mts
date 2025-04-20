@@ -54,35 +54,42 @@ export default defineConfig({
 
       {
         text: '指南',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '介绍', link: '/docs/index' },
           { text: '聊天', link: '/docs/guide/chat' },
           { text: '安装模型', link: '/docs/guide/installing-models' },
           { text: '智能体', link: '/docs/guide/intelligent-agent' },
           { text: '知识库', link: '/docs/guide/knowledgebase' },
-          { text: '第三方API', link: '/docs/guide/thirdapi' },
+          {
+            text: '第三方API',
+            collapsed: true,
+            items: [
+              { text: '概览',     link: '/docs/guide/thirdapi' },
+              { text: '接入硅基流动API', link: '/docs/guide/thirdapi/siliconflow' },
+            ]
+          },
           { text: '分享', link: '/docs/guide/share' },
           { text: 'MCP', link: '/docs/guide/mcp' }
         ]
       },
       {
         text: '实用教程',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '知识库进阶', link: '/docs/Practical-tutorials/knowledgebase' }
         ]
       },
       {
         text: 'FAQ',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '常见问题', link: '/docs/faq/faq' }
         ]
       },
       {
         text: 'API文档',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '开发规范', link: '/docs/api/index' },
           { text: '共通返回', link: '/docs/api/common-return' },
