@@ -67,6 +67,7 @@ export default defineConfig({
             items: [
               { text: '概览',     link: '/docs/guide/thirdapi' },
               { text: '接入硅基流动API', link: '/docs/guide/thirdapi/siliconflow' },
+              { text: '接入DeepSeek API', link: '/docs/guide/thirdapi/deepseek' },
             ]
           },
           { text: '分享', link: '/docs/guide/share' },
