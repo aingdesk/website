@@ -54,7 +54,7 @@ export default defineConfig({
 
       {
         text: '指南',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: '介绍', link: '/docs/index' },
           { text: '聊天', link: '/docs/guide/chat' },
@@ -74,6 +74,7 @@ export default defineConfig({
               { text: '接入KIMI API', link: '/docs/guide/thirdapi/kimi' },
               { text: '接入百度飞桨 API', link: '/docs/guide/thirdapi/paddle' },
               { text: '接入火山方舟 API', link: '/docs/guide/thirdapi/volcengine' },
+              { text: '添加自定义API', link: '/docs/guide/thirdapi/custom' }
             ]
           },
           { text: '分享', link: '/docs/guide/share' },
