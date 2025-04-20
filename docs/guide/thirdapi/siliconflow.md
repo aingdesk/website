@@ -13,7 +13,7 @@
 ::: warning 警告
 请妥善保管API密钥，避免泄露。API密钥是您访问硅基流动API的凭证，泄露后可能导致您的账户被滥用。
 :::
-5. 打开AingDesk，点击左侧导航栏中的“第三方API”，进入第三方API页面。
+5. 打开AingDesk，点击左侧导航栏中的“第三方模型API”，进入第三方API页面。
 ![third_api](img/third_api.png)
 6. 在弹出的窗口中，选择“硅基流动”，填入API密钥，点击保存API。
 ![siliconflow_save_api](img/siliconflow_save_api.png)

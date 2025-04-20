@@ -14,7 +14,7 @@
 ::: tip 提示
 DeepSeek 当前注册后似乎已经没有赠送免费额度了，建议使用时注意查看余额。
 :::
-4. 打开 AingDesk，点击左侧导航栏中的“第三方API”，进入第三方 API 页面。
+4. 打开 AingDesk，点击左侧导航栏中的“第三方模型API”，进入第三方 API 页面。
 ![third_api](img/third_api.png)
 5. 在弹出的窗口中，选择“DeepSeek”，填入 API 密钥，点击保存 API。
 ![deepseek_save_api](img/deepseek_save_api.png)

@@ -10,7 +10,7 @@
 ![aliyun_create_api_key](img/aliyun_create_api_key.png)
 4. 创建完成后在列表中找到刚刚创建的 API-Key，点击查看并复制 API-Key。
 ![aliyun_show_api_key](img/aliyun_show_api_key.png)
-5. 打开 AingDesk，点击左侧导航栏中的“第三方API”，进入第三方 API 页面。
+5. 打开 AingDesk，点击左侧导航栏中的“第三方模型API”，进入第三方 API 页面。
 ![third_api](img/third_api.png)
 6. 在弹出的窗口中，选择“百炼-通义千问”，填入 API密钥，点击保存 API。
 ![aliyun_save_api](img/aliyun_save_api.png)
