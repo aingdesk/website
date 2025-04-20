@@ -113,6 +113,10 @@ export default defineConfig({
       }
     ],
 
+    outline: {
+      level: [2, 3]
+    },
+
     editLink: {
       pattern: 'https://cnb.cool/aingdesk/website/-/tree/main/:path',
       text: '在 CNB 上编辑此页面'
