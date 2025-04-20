@@ -1,3 +1,6 @@
+## AingDesk文档规范
+AingDesk是一款简单好用的AI助手，支持知识库、模型API、分享、联网搜索、智能体、MCP，它还在飞快成长中。
+
 ## 文档规范
 
 本文档旨在规范AingDesk所有对外文档（包括但不限于产品文档、API文档、白皮书文档等）的基本格式及风格。AingDesk文档书写语法为Markdown，关于Markdown的更多信息，可参考https://github.github.com/gfm/

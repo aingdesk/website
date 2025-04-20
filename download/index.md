@@ -1,10 +1,78 @@
 # 下载 AingDesk
 
-### Windows
-- [点击下载 Windows 版](https://aingdesk.bt.cn/AingDesk-win-1.2.3-x64.exe)  
-### macOS
-- [点击下载 macOS ARM64 (Apple Silicon) 版](https://aingdesk.bt.cn/AingDesk-mac-1.2.3-arm64.dmg)  
-- [点击下载 macOS x64 (Intel) 版](https://aingdesk.bt.cn/AingDesk-mac-1.2.3-x64.dmg)
-### Docker
-- [Docker 安装](/docs/Installation/docker.md)
+## 适用平台及下载
 
+### Windows
+- **适用对象**：Windows 10 及以上版本用户
+- **下载链接**：  
+  [点击下载 Windows 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-win-1.2.3-x64.exe)
+
+### macOS
+- **适用对象**：macOS 11 及以上版本用户
+- **Apple Silicon（ARM64）**：  
+  [点击下载 macOS ARM64 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-mac-1.2.3-arm64.dmg)
+- **Intel（x64）**：  
+  [点击下载 macOS x64 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-mac-1.2.3-x64.dmg)
+
+### Docker
+- **适用对象**：需要在服务器或容器环境中部署的用户
+- **安装文档**：  
+  [Docker 安装指南](/docs/Installation/docker.md)
+
+---
+
+> **注意事项：**
+> 1. 请根据您的操作系统和硬件架构选择对应的安装包。
+> 2. 如使用过程中遇到问题，请参考[常见问题解答](/docs/faq/faq)或在社区寻求帮助。
+
+## 更新日志
+### v1.2.3
+- 修复opanai gpt-o3的兼容
+- 修复使用第三方嵌入模型创建知识库后提示找不到模型的问题
+- 优化模型选择器
+
+### v1.2.2
+- 增加自动更新机制（仅Windows版）
+- 修复知识库+智能体+工具联合调用异常的问题
+- 其它已知问题的修复
+
+### v1.2.1
+- 增加MCP客户端功能（设置-MCP服务器配置好，然后在对话中选择工具即可）
+- 优化模型选择器
+- 其它细节调整
+
+### v1.2.0
+- 优化文档默认分片效果
+- 优化知识库全文搜索精度
+- 修复多分割符分片不完整的问题
+- 修复一些UI交互问题
+
+### v1.1.9
+- 知识库精度配置改为自动
+- 修复知识库召回配置不生效的问题
+- 修复修改数据目录导致的部分问题
+- 修复部分线上模型调用报错的问题
+- 增加对x64版MAC的支持
+
+### v1.1.8
+- 知识库精度和性能提升
+- 知识库文档分片配置和召回配置
+- 增加数据存储目录修改功能
+- 修复.doc文件无法解析的问题
+- 优化上下文嵌入过程，减少幻觉
+- 其它已知Bug修复
+
+### v1.1.7
+- 新增对 Mermaid 标准语法的输出格式化解析能力。
+- 增加自定义 Ollama 服务接口地址的配置选项，提升灵活性。
+- 同步并维护最新版本的 Ollama 模型库列表。
+- 当模型调用失败时显示错误信息，以便排查原因。
+- 修复ollama模型存储目录配置没有立即生效的问题。
+
+### v1.1.6
+- 修复知识库文档在某些情况下嵌入无限等待的问题
+- 增加嵌入模型可用性检测机制
+- 调整PDF解析器，增强可用性和格式保留
+- 新增支持选择模型安装位置
+
+### 更多更新日志请查看 [版本发布界面](https://cnb.cool/aingdesk/AingDesk/-/releases)
