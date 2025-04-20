@@ -14,6 +14,9 @@
 ![third_api](img/third_api.png)
 6. 在弹出的窗口中，选择“百炼-通义千问”，填入 API密钥，点击保存 API。
 ![aliyun_save_api](img/aliyun_save_api.png)
+::: tip 提示
+正常情况下，点击保存API后，AingDesk会自动获取阿里百炼的模型列表，如未获取到，请检查配置是否正确。
+:::
 7. 关闭弹窗，回到对话页面，在左上角的“模型”下拉框中，选择“百炼-通义千问”，即可使用阿里云的模型服务。
 ![aliyun_model](img/aliyun_model.png)
 8. 在对话框中输入问题，点击发送，即可使用阿里云的模型服务。

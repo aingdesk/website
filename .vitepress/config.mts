@@ -70,6 +70,7 @@ export default defineConfig({
               { text: '接入DeepSeek API', link: '/docs/guide/thirdapi/deepseek' },
               { text: '接入阿里云百炼 API', link: '/docs/guide/thirdapi/aliyun' },
               { text: '接入百度千帆 API', link: '/docs/guide/thirdapi/baidu' },
+              { text: '接入腾讯混元 API', link: '/docs/guide/thirdapi/hunyuan' },
             ]
           },
           { text: '分享', link: '/docs/guide/share' },
