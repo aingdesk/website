@@ -10,6 +10,9 @@
 ![siliconflow_create_api_key](img/siliconflow_create_api_key.png)
 4. 创建成功后，点击密钥复制按钮，复制API密钥。
 ![siliconflow_copy_api_key](img/siliconflow_copy_api_key.png)
+::: warning 警告
+请妥善保管API密钥，避免泄露。API密钥是您访问硅基流动API的凭证，泄露后可能导致您的账户被滥用。
+:::
 5. 打开AingDesk，点击左侧导航栏中的“第三方API”，进入第三方API页面。
 ![third_api](img/third_api.png)
 6. 在弹出的窗口中，选择“硅基流动”，填入API密钥，点击保存API。
@@ -19,3 +22,5 @@
 :::
 7. 关闭弹窗，回到对话页面，在左上角的“模型”下拉框中，选择“硅基流动相关模型”，即可使用硅基流动的模型服务。
 ![siliconflow_model](img/siliconflow_model.png)
+8. 在对话框中输入问题，点击发送，即可使用硅基流动的模型服务。
+![siliconflow_chat](img/siliconflow_chat.png)
