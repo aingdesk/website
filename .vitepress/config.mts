@@ -83,6 +83,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '概览',     link: '/docs/guide/mcp' },
+              { text: '高德地图 MCP', link: '/docs/guide/mcp/amap' },
             ]
           }
         ]
