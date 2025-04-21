@@ -1,3 +1,6 @@
+---
+title: 接入KIMI API - 第三方模型API 
+---
 # 接入 KIMI API
 ## 操作场景
 本文将指导您如何使用 AingDesk 接入 KIMI API，从而使用 KIMI 提供的在线模型服务。

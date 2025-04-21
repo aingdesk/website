@@ -1,3 +1,6 @@
+---
+title: 接入DeepSeek API - 第三方模型API 
+---
 # 接入DeepSeek API
 ## 操作场景
 本文将指导您如何使用AingDesk接入DeepSeek API，从而使用DeepSeek提供的在线模型服务。
