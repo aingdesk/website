@@ -78,7 +78,13 @@ export default defineConfig({
             ]
           },
           { text: '分享', link: '/docs/guide/share' },
-          { text: 'MCP', link: '/docs/guide/mcp' }
+          {
+            text: 'MCP',
+            collapsed: true,
+            items: [
+              { text: '概览',     link: '/docs/guide/mcp' },
+            ]
+          }
         ]
       },
       {
