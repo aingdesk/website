@@ -84,6 +84,7 @@ export default defineConfig({
             items: [
               { text: '概览',     link: '/docs/guide/mcp' },
               { text: '高德地图 MCP', link: '/docs/guide/mcp/amap' },
+              { text: '腾讯地图 MCP', link: '/docs/guide/mcp/tencent_map' },
             ]
           }
         ]
