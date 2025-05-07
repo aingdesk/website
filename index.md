@@ -19,9 +19,12 @@ hero:
     - theme: alt
       text: API文档
       link: /docs/api/
+    - theme: alt
+      text: 企业版
+      link: /docs/enterprise/
   image:
     src: /img/home.png
-    alt: 背景图片
+    alt: 背景
 
 features:
   - title: 👍免费MIT开源

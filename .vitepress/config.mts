@@ -118,7 +118,8 @@ export default defineConfig({
           { text: '服务端文件相关', link: '/docs/api/server-file' },
           { text: 'MCP相关', link: '/docs/api/mcp' }
         ]
-      }
+      },
+      { text: '企业版', link: '/docs/enterprise/' },
     ],
 
     outline: {
