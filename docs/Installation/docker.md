@@ -32,9 +32,11 @@ docker-compose up -d
 ```bash
 docker run -d \
   --name node \
-  -v $(pwd)/data:/aingdesk/data \
-  -v $(pwd)/uploads:/aingdesk/uploads \
-  -v $(pwd)/logs:/aingdesk/logs \
+  -v $(pwd)/data:/data \
+  -v $(pwd)/uploads:/uploads \
+  -v $(pwd)/logs:/logs \
+  -v $(pwd)/bin:/aingdesk/bin \
+  -v $(pwd)/sys_data:/sys_data \
   -p 7071:7071 \
   -w /aingdesk \
   aingdesk/aingdesk
@@ -45,9 +47,11 @@ docker run -d \
 ```bash
 docker run -d \
   --name node \
-  -v $(pwd)/data:/aingdesk/data \
-  -v $(pwd)/uploads:/aingdesk/uploads \
-  -v $(pwd)/logs:/aingdesk/logs \
+  -v $(pwd)/data:/data \
+  -v $(pwd)/uploads:/uploads \
+  -v $(pwd)/logs:/logs \
+  -v $(pwd)/bin:/aingdesk/bin \
+  -v $(pwd)/sys_data:/sys_data \
   -p 7071:7071 \
   -w /aingdesk \
   docker.cnb.cool/aingdesk/aingdesk
