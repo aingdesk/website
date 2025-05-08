@@ -10,7 +10,7 @@ AingDesk 完全免费使用，没有任何限制或隐藏限制。
 
 ## Let’s Talk
 如果您对 AingDesk 企业版感兴趣，欢迎联系我们告知您的需求和团队规模，我们将为您提供更好的支持和解决方案。
-![联系我们](img/contact.png)![alt text](cbba1bd1addebeff8329524686e7ab44.png)
+![联系我们](img/contact.png)
 
 ## 企业服务
 ### 完全可定制化
