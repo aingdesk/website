@@ -5,14 +5,14 @@
 ### Windows
 - **适用对象**：Windows 10 及以上版本用户
 - **下载链接**：  
-  [点击下载 Windows 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-win-1.2.3-x64.exe)
+  [点击下载 Windows 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-win-1.2.4-x64.exe)
 
 ### macOS
 - **适用对象**：macOS 11 及以上版本用户
 - **Apple Silicon（ARM64）**：  
-  [点击下载 macOS ARM64 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-mac-1.2.3-arm64.dmg)
+  [点击下载 macOS ARM64 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-mac-1.2.4-arm64.dmg)
 - **Intel（x64）**：  
-  [点击下载 macOS x64 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-mac-1.2.3-x64.dmg)
+  [点击下载 macOS x64 版（v1.2.3）](https://aingdesk.bt.cn/AingDesk-mac-1.2.4-x64.dmg)
 
 ### Docker
 - **适用对象**：需要在服务器或容器环境中部署的用户
@@ -26,6 +26,14 @@
 > 2. 如使用过程中遇到问题，请参考[常见问题解答](/docs/faq/faq)或在社区寻求帮助。
 
 ## 更新日志
+### v1.2.4
+- 新增支持Qwen3模型
+- 优化了部分搜索引擎的结果解析
+- 新增支持OCR解析纯图PDF，macOS需自行安装 poppler，可执行`brew install poppler`
+- 优化了在智能体场景下使用搜索引擎的效果
+- 优化了mcp工具调用结果的解析
+- 修复了部分已知问题
+
 ### v1.2.3
 - 修复opanai gpt-o3的兼容
 - 修复使用第三方嵌入模型创建知识库后提示找不到模型的问题
