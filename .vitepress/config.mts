@@ -5,6 +5,10 @@ export default defineConfig({
   lang: 'zh-Hans',
   title: "AingDesk",
   description: "拥有超强知识库能力的开源免费AI助手",
+  
+  head: [
+    ['script', { defer: 'true', src: 'https://0198125e-f52e-75ed-a3e1-65fa6e80efdf.spst1.com/ss.js' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
