@@ -7,7 +7,14 @@ export default defineConfig({
   description: "拥有超强知识库能力的开源免费AI助手",
   
   head: [
-    ['script', { defer: 'true', src: 'https://0198125e-f52e-75ed-a3e1-65fa6e80efdf.spst1.com/ss.js' }]
+    ['script', { defer: 'true', src: 'https://0198125e-f52e-75ed-a3e1-65fa6e80efdf.spst1.com/ss.js' }],
+    ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-XE2VGK2EZS' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XE2VGK2EZS');
+    `]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
