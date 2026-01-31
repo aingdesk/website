@@ -5,14 +5,14 @@
 ### Windows
 - **适用对象**：Windows 10 及以上版本用户
 - **下载链接**：  
-  [点击下载 Windows 版（v1.2.4）](https://aingdesk.bt.cn/AingDesk-win-1.2.4-x64.exe)
+  [点击下载 Windows 版（v1.2.4）](https://cnb.cool/aingdesk/AingDesk/-/releases/download/v1.2.4/AingDesk-win-1.2.4-x64.exe)
 
 ### macOS
 - **适用对象**：macOS 11 及以上版本用户
 - **Apple Silicon（ARM64）**：  
-  [点击下载 macOS ARM64 版（v1.2.4）](https://aingdesk.bt.cn/AingDesk-mac-1.2.4-arm64.dmg)
+  [点击下载 macOS ARM64 版（v1.2.4）](https://cnb.cool/aingdesk/AingDesk/-/releases/download/v1.2.4/AingDesk-mac-1.2.4-arm64.dmg)
 - **Intel（x64）**：  
-  [点击下载 macOS x64 版（v1.2.4）](https://aingdesk.bt.cn/AingDesk-mac-1.2.4-x64.dmg)
+  [点击下载 macOS x64 版（v1.2.4）](https://cnb.cool/aingdesk/AingDesk/-/releases/download/v1.2.4/AingDesk-mac-1.2.4-x64.dmg)
 
 ### Docker
 - **适用对象**：需要在服务器或容器环境中部署的用户
